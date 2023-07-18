@@ -1,0 +1,16 @@
+#index {background-image: url('background.jpg');
+        background-repeat: no-repeat, no-repeat;
+        background-color: #000000;
+        max-width: fit-content;
+        background-size: cover;
+        background-position: center;
+        }
+header {background-color: #000000;
+        background-size: cover;
+        height: 80px;
+       }
+footer {
+        background-color: #000000;
+        background-size: cover;
+        height: 50px;
+        }
