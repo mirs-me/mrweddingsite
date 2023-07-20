@@ -24,10 +24,11 @@ body {background: url(background.jpg) no-repeat center center fixed;
 .menu-item {list-style: none;  
 display: inline-flex; }
 .flag { width: 40px;
-        padding: 10px,25px;}
+        padding: 10px,25px;
+        }
 .letter { font-family: 'Love Light', cursive;
         font-size: 36px;
-}       
+        }       
 .footer {background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
         color:#5e5e5e;
         display: flex;
