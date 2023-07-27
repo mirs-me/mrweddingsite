@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +16,7 @@
 </head>
 <body>
     <header class="header-secondary">
+        <div class="container header-items">
         <h3 class="initials-secondary"> <a class="initials-secondary-link" href="./"> <span class="letter">M</span>&#38;<span class="letter">R</span></a></h3>
         <nav>
             <ul>
@@ -22,14 +25,20 @@
                 <li class="menu-item"><a class="menu-item-link" href="">Kontakt</a></li>
             </ul>
         </nav>
-        <a class="language-flag" href="/bg.html"><img class="flag" src="bg.png" alt="bulgarian flag" /></a>
+        <a class="menu-language" href="/bg.html"><img class="flag" src="bg.png" alt="bulgarian flag" /></a>
+        </div>
     </header>
     <main>
+        <div class="container">
         <h1>Mirela Svetoslavova &#38; Rafał Stolarski</h1>
         <h2> z przyjemnością zapraszają na urocistość zaślubin</h2>
+        </div>
     </main>
     <footer class="footer-secondary">
-        <p>Created by <a class="creator-link" href="https://www.facebook.com/mirs.deviceful"><b>MirS Deviceful</b></a></p>
+        <div class="container creator">
+            <p>Created by <a class="creator-link" href="https://www.facebook.com/mirs.deviceful"><b>MirS Deviceful</b></a>
+            </p>
+        </div>
     </footer>
 </body>
 </html>
