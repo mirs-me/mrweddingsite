@@ -51,8 +51,8 @@ svg{display: block;}
         font-size: 20px;
         font-weight: 500;
         color:#cecece;}
-.menu-item-link:hover, .menu-item-link:focus {color: #d6582e;}      
-.flag:hover, .flag:focus {box-shadow: 0px 0px 10px 5px #d6582ebf;
+.menu-item-link:hover, .menu-item-link:focus {color: #c22e2e;}      
+.flag:hover, .flag:focus {box-shadow: 0px 0px 10px 5px #c22e2ebf;
         border-radius: 15px;}
 .main-body {
             padding: 50px 0
@@ -72,7 +72,7 @@ svg{display: block;}
                 color: #5e5e5e;
                 font-style:initial;}
 
-.creator-link:hover, .creator-link:focus { color: #d6582e}
+.creator-link:hover, .creator-link:focus { color: #c22e2e}
 .main-page{     margin-top:100px;
                 display: flex;
                 align-items: center;
@@ -104,7 +104,7 @@ svg{display: block;}
                         font-size: 42px;
                         font-weight: 500;
                         margin-bottom: 20px;}
-.choose-flag:hover, .choose-flag:focus{ box-shadow: 0px 0px 20px 10px #d6582ebf;
+.choose-flag:hover, .choose-flag:focus{ box-shadow: 0px 0px 20px 10px #c22e2ebf;
                                         border-radius: 50px;}
 .header-secondary {
         background: #000;
@@ -114,7 +114,7 @@ svg{display: block;}
 }
 .initials-secondary-link{text-decoration: none;
                                 color:#fff;}
-.initials-secondary-link:hover, .initials-secondary-link:focus{color: #c2460d;}
+.initials-secondary-link:hover, .initials-secondary-link:focus{color: #c22e2e;}
 .initials-secondary {
         font-weight: 400;
         margin: auto;
@@ -164,4 +164,4 @@ svg{display: block;}
         width: 100%;
         height: 50px;
 }
-.active-link{color: #d6582e;}
+.active-link{color: #c22e2e;}
