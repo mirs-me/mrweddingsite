@@ -2,22 +2,26 @@ body {font-family: 'Ysabeau Infant', sans-serif;
         }
 ul{ margin-block-end: 0;
         margin-block-start:0;
-        padding: 0;}
+        padding: 0;
+        list-style-type: none;
+        }
 h1 {margin: 0;
         padding:0}
 h2 {margin-bottom: 0;}
 svg{display: block;}
+img{display: block;}
 .container {    width: 1190px;
                 margin-inline: auto;
                 padding-inline:15px;}
 
-.index{ background: url(mak-cA4ZXSbnINI-unsplash.jpg) no-repeat center center fixed;
+.index{ background: url(new-background.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;}
 
-.header-main {background-color: #000;
+.header-main {
+        /* background-color: #000; */
                 width: 100%;
                 color: #fff;
                 height: 80px;
@@ -59,8 +63,9 @@ svg{display: block;}
 .main-body {
             padding: 50px 0
             }
-.footer-main {background: black;
-        color:#5f5050;
+.footer-main {
+        /* background: black; */
+        color:#e7e7e7;
         position: fixed;
         bottom: 0;
         width: 100%;
@@ -71,11 +76,11 @@ svg{display: block;}
         font-style: italic;
 }
 .creator-link {text-decoration: none;
-                color: #5e5e5e;
+                color: #ffffff;
                 font-style:initial;}
 
 .creator-link:hover, .creator-link:focus { color: #c22e2e}
-.main-page{     margin-top:100px;
+.main-page{     margin-top:50px;
                 display: flex;
                 align-items: center;
                 background-image: url(../svg/outlines-pl-bg.svg);
@@ -83,17 +88,19 @@ svg{display: block;}
                         background-position-x: center;
                         padding: 180px; }
 .date { font-family: 'EB Garamond', serif;
-        font-size: 100px;
+        color: #cfcece;
+        font-size: 175px;
         font-weight: 500;
         text-align: center;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
         padding: 0 0 100px 0;
-        margin-top: -120px;}
+        margin-top: -50px;
+}
                      
 .choose-lang{   display: flex;
                 justify-content: center;
-                gap: 500px;
-                margin-top: -60px ;}
+                gap: 200px;
+                margin-top: -100px ;}
 .choose-pl{display: flex;
         flex-direction: column;
         align-items: center;}
@@ -102,12 +109,15 @@ svg{display: block;}
         flex-direction: column;
         align-items: center;
 }
-.choose-lang-title{font-style: italic;
-                        font-size: 42px;
+.choose-lang-title{     color: #cfcece;
+                        font-style: italic;
+                        font-size: 35px;
                         font-weight: 500;
                         margin-bottom: 20px;}
-.choose-flag:hover, .choose-flag:focus{ box-shadow: 0px 0px 3px 3px #c22e2ebf;
-                                        border-radius: 50px;}
+.choose-flag { display: block;}
+.choose-flag:hover, .choose-flag:focus{ box-shadow: 0px 0px 20px 3px #c22e2ebf;
+                                        border-radius: 25px;
+                                }
 .header-secondary {
         background: #000;
         width: 100%;
@@ -160,10 +170,31 @@ svg{display: block;}
  }
 .footer-secondary {
         background: black;
-        color: #5e5e5e;
+        color: #e7e7e7;
         position: fixed;
         bottom: 0;
         width: 100%;
-        height: 50px;
+        height: 5%;
 }
 .active-link{color: #c22e2e;}
+.title-text{ font-size: 24px;
+        font-style: italic;
+        display: flex;
+        flex-direction: column;
+        align-items: center;}
+/* .info-paragraph { display: flex;
+                flex-direction: column;
+                align-items: center;} */
+.info{
+        font-size: 24px;
+        font-weight: 700;
+        padding: 1% 0;
+        text-align: justify;
+        }
+.info-title{ text-align: left; 
+        color: #c22e2e;}
+.info-paragraph{ padding: 0 20%;}
+.info-colors { margin-inline-start: auto;}
+.link-colors{ color: #000;
+                text-decoration: none;}
+.link-colors:hover, .link-colors:active {color: #c22e2e;}
