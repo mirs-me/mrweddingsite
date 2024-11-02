@@ -186,13 +186,14 @@ img{display: block;}
                 flex-direction: column;
                 align-items: center;} */
 .info{
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 700;
         padding: 1% 0;
         text-align: justify;
         }
 .info-title{ text-align: left; 
-        color: #c22e2e;}
+        color: #c22e2e;
+        }
 .info-paragraph{ padding: 0 20%;}
 .info-colors { margin-inline-start: auto;}
 .link-colors{ color: #000;
