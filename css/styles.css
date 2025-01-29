@@ -239,6 +239,18 @@ img{display: block;}
         height: 5%;
 }
 
+.map-frame-mobile { display: flex;
+             margin: auto;
+}
+.map-frame-desktop{
+                display: none;
+}
+.page-heading{ text-align: justify;
+                margin-bottom: 25px;}
+.page-heading>h1 { text-align: center;}
+.page-heading>p{ font-size: 15px;}
+
+
 @media screen and (min-width: 1200px) {
         
   .container { max-width: 1158px;
@@ -402,4 +414,19 @@ img{display: block;}
                         width: 100%;
                         height: 50px;
                 }
+                .page-heading>p {
+                        font-size: 20px;
+                        padding-top: 1%;
+                        margin: auto;
+                        max-width: 600px;
+                                }
+
+       .map-frame-mobile {
+               display: none;
+       }
+
+       .map-frame-desktop {
+               display: flex;
+               margin: auto;
+       }
 }
