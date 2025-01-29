@@ -130,7 +130,13 @@ a{text-decoration: none;
 
 /* Pages styling below */
 
-
+.under-construction{
+        font-style: italic;
+        font-weight: 700;
+        color: var(--brickred);
+        font-size: 20px;
+        margin-top: 0;
+}
 
 .header-secondary {
         background: var(--black);
@@ -205,7 +211,7 @@ a{text-decoration: none;
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 500;
         color: #cecece;
 }
@@ -219,6 +225,7 @@ a{text-decoration: none;
 }
 .title-text{font-style: italic;
         text-align: center;
+        padding-bottom: 0;
         
 }
 .title-text>h1{font-size: 28px;}
@@ -227,13 +234,13 @@ a{text-decoration: none;
 .info{
         font-size: 15px;
         font-weight: 600;
-        padding: 2% 0;
+        padding: 0 0 10px 0;
         text-align: justify;
         }
 .info-title{ text-align: left; 
         color: var(--brickred);
         }
-.info-paragraph{ padding: 2% 2%;}
+.info-paragraph{ padding: 0 2% 2% 2%;}
 .info-colors { margin-inline-start: auto;}
 .link-colors{ color: #000;
                 text-decoration: none;}
@@ -440,7 +447,10 @@ a{text-decoration: none;
                         flex-direction: row;
                         gap: 24px;
                 }
+                .menu-item-link-pl {
+        font-size: 18px;
 
+}
                 .footer-secondary {
                         background: black;
                         color: #e7e7e7;
@@ -471,6 +481,7 @@ a{text-decoration: none;
   .title-text {
           font-size: 24px;
           font-style: italic;
+          padding-bottom: 0;
           /* display: flex;
           flex-direction: column;
           align-items: left; */
@@ -480,9 +491,14 @@ a{text-decoration: none;
           display: flex;
           flex-direction: column;
           align-items: left;
+          padding: 0;
+  }
+  .funny-note{
+        display: block;
+        margin-bottom: 0;
   }
   .info {text-align: justify;
-        padding-top: 0;
+        padding: 0 0 10px 0;
         margin: 0 15%;
         font-size: 20px;
 
