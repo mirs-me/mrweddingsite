@@ -130,13 +130,6 @@ a{text-decoration: none;
 
 /* Pages styling below */
 
-.under-construction{
-        font-style: italic;
-        font-weight: 700;
-        color: var(--brickred);
-        font-size: 20px;
-        margin-top: 0;
-}
 
 .header-secondary {
         background: var(--black);
@@ -264,7 +257,8 @@ a{text-decoration: none;
 .page-heading{ text-align: justify;
                 margin-bottom: 1%;}
 .page-heading>h1 { text-align: center;}
-.page-heading>p{ font-size: 15px;}
+.page-heading>p{ font-size: 15px;
+                 line-height: 1}
 .contacts{margin-top: 5%;
         margin-bottom: 5%;
         display: flex;
@@ -294,6 +288,13 @@ a{text-decoration: none;
 
 .phone-descr{ font-size: 12px;}
 
+.under-construction {
+        font-style: italic;
+        font-weight: 700;
+        color: var(--brickred);
+        font-size: 20px;
+        margin-top: 0;
+}
 @media screen and (min-width: 1200px) {
         
   .container { max-width: 1158px;
