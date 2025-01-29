@@ -27,7 +27,7 @@ img{display: block;}
 a{text-decoration: none;
         color: currentColor;}
 .container {
-        min-width: 428px;
+        min-width: 400px;
         max-width: 900px;
         margin-left: auto;
         margin-right: auto;
@@ -160,7 +160,7 @@ a{text-decoration: none;
 }
  .header-items-secondary>nav {
          display: flex;
-         gap: 40px;
+         gap: 20px;
          align-items: center;
  }
  .menu-navigation {
@@ -232,7 +232,7 @@ a{text-decoration: none;
 .info-title{ text-align: left; 
         color: var(--brickred);
         }
-.info-paragraph{ padding: 0 15%;}
+.info-paragraph{ padding: 0 2%;}
 .info-colors { margin-inline-start: auto;}
 .link-colors{ color: #000;
                 text-decoration: none;}
@@ -257,16 +257,18 @@ a{text-decoration: none;
                 margin-bottom: 25px;}
 .page-heading>h1 { text-align: center;}
 .page-heading>p{ font-size: 15px;}
-.contacts{
+.contacts{margin-top: 5%;
+        margin-bottom: 5%;
         display: flex;
         align-items: center;
         flex-direction: column;
         gap: 20px;
 }
-.contacts-item{ text-align: center;
+.contacts-item{ 
+                text-align: center;
                 line-height: 1.5;
                 padding: 2%;
-                max-width: 200px;
+                max-width: 400px;
                 background-color: var(--white);
                                 text-align: center;
                                 border-radius: 4px 4px 4px 4px;
