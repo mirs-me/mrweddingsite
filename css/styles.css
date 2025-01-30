@@ -69,7 +69,8 @@ a{text-decoration: none;
         font-size: 56px;}
 
 .main-body {
-            padding: 1% 0
+            padding: 1% 0;
+            margin-bottom: 50px;
             }
 .main-body>h1{
         text-align: center;
@@ -86,6 +87,7 @@ a{text-decoration: none;
         text-align: center;
         font-style: italic;
         font-size: 75%;
+        margin-top: 1.5%;
 }
 .creator-link {text-decoration: none;
                 color: #ffffff;
@@ -290,10 +292,53 @@ a{text-decoration: none;
 
 .under-construction {
         font-style: italic;
+        text-align: center;
         font-weight: 700;
         color: var(--brickred);
         font-size: 20px;
-        margin-top: 0;
+        margin:0 auto;
+        padding-top: 0;
+        padding-bottom: 5px;
+}
+.container-overflow{
+        overflow-y: auto;
+}
+.travel-info {
+        text-align: justify;
+        line-height: 1;
+        padding: 2%;
+        max-width: 400px;
+        background-color: var(--white);
+        border-radius: 4px 4px 4px 4px;
+        box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.travel-info>h3 { 
+        text-align: center;
+        margin-top:0;
+}
+.travel-section{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+}
+.hotel-section{
+        text-align: center;
+}
+.hotel-section>h3{
+        text-align: center;
+        margin:0;
+        padding-top:0;
+}
+.hotel-info{text-align: center;
+        line-height: 1.5;
+        padding: 20px;
+        max-width: 400px;
+        background-color: var(--white);
+        border-radius: 4px 4px 4px 4px;
+        box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+        margin: 0 auto;
+
 }
 @media screen and (min-width: 1200px) {
         
@@ -504,5 +549,14 @@ a{text-decoration: none;
         font-size: 20px;
 
   }
+  .under-construction{
+        text-align: center;
+  }
+  .travel-section {
+          flex-direction: row;
+          justify-content: center;
 }
-
+.hotel-section {
+        font-size: 20px;
+}
+}
