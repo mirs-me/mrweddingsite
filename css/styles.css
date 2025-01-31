@@ -265,7 +265,10 @@ a{text-decoration: none;
 .confirm-button>a>p{padding: 10px;
         margin: 0 0 5px 0;
                 }
-
+.deadline{
+        font-weight: 400;
+        font-size: 12px;
+}
 .map-frame-mobile { display: flex;
              margin: auto;
 }
@@ -575,6 +578,9 @@ a{text-decoration: none;
   .confirm-button{
         font-size: 20px;
         max-width: 200px;
+  }
+  .deadline{
+        font-size: 16px;
   }
   .under-construction{
         text-align: center;
